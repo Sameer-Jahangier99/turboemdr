@@ -1,0 +1,100 @@
+.grey-color-txt {
+    color: #919191;
+}
+
+.register-body {
+    background-color: #D5FFFC;
+}
+
+.title {
+    font-size: 80px;
+    line-height: 100px;
+    font-weight: 400;
+    color: #004186;
+}
+
+.icon-caption {
+    font-size: 18px;
+    font-weight: bold;
+    color: #004186;
+}
+
+.faq-title {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 33px;
+    color: #004186;
+}
+
+.faq-question {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #004186;
+}
+
+.faq-description {
+    font-size: 18px;
+    line-height: 25px;
+    color: #004186;
+}
+
+.steps {
+    font-size: 18px;
+    font-weight: bold;
+    color: #004186;
+}
+
+
+.icon-img {
+    width: 60px;
+    box-shadow: rgb(17 17 26 / 10%) 0px 0px 16px;
+    border-radius: 20px;
+}
+
+.accord-container {
+    border-radius: 10px !important;
+    box-shadow: rgb(17 17 26 / 10%) 0px 0px 16px;
+}
+
+.accordian-border {
+    border-radius: 10px !important;
+}
+
+.register-box {
+    border-radius: 10px;
+    box-shadow: rgb(17 17 26 / 10%) 0px 0px 16px;
+}
+
+.register-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #004186;
+}
+
+.registet-label {
+    font-size: 18px;
+    color: #004186;
+}
+
+.registet-label::after {
+    content: '*';
+}
+
+.radio-title-alignment {
+    margin-top: -7px;
+}
+
+input[type="radio"] {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+}
+
+input[type=radio]::-ms-check {
+    /* This will make the border red when the button is checked. */
+    color: #004186;
+    /* This will make the circle red when the button is checked. */
+}

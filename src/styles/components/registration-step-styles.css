@@ -1,0 +1,39 @@
+.step-count-container{
+    background-color: #12c9b9;
+    border-radius: 50%;
+}
+
+.not-step-count {
+    background-color: #F4F8FB !important;
+    border-radius: 50%;
+}
+
+
+.step-count {
+    font-size: 18px;
+    color: #004186;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.horizontal-line {
+    width: 70px;
+    opacity: none;
+    color: #004186;
+}
+
+.next-step-btn {
+    border-radius: 30px;
+    background: #12c9b9;
+    border: none;
+    color: #004186;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.next-step-btn:hover {
+    background: #D5FFFC;
+
+    color: #004186;
+}

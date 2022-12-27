@@ -1,0 +1,593 @@
+@media (max-width: 1800px){
+    img.hero-img {
+        height: 500px;
+    }
+}
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    img.hero-img {
+        height: 400px;
+    }
+
+    .header-right a {
+        padding: 15px 40px;
+    }
+
+    .hero-left-content h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .hero-left-content p {
+        font-size: 18px;
+    }
+
+    .why-turboemdr .section-title h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .wht-single-img img {
+        height: 200px;
+    }
+
+    .wht-single-img-2 img {
+        height: 155px !important;
+    }
+
+    .wht-single-img-3 img {
+        height: 85px !important;
+    }
+
+    .section-title h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .calmer-content-left h1 {
+        font-size: 40px;
+    }
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-right a {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+
+    .header-right a {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+
+    img.hero-img {
+        z-index: 1;
+        right: 0;
+        left: auto;
+    }
+    img.hero-img {
+        height: 400px;
+    }
+    .hero-left-content {
+        position: relative;
+        z-index: 2;
+        padding-top: 100px;
+        width: 60%;
+    }
+
+    .hero-left-content h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .hero-left-content h1 br {
+        display: none;
+    }
+
+    section.hero-area {
+        padding-bottom: 70px;
+    }
+
+    .why-turboemdr .section-title h1 {
+        font-size: 36px;
+        line-height: normal;
+    }
+
+    .wht-single-img img {
+        height: 180px;
+    }
+
+    .wht-single-img-2 img {
+        height: 110px;
+    }
+
+    .wht-single-img-3 img {
+        height: 100px;
+        margin-right: 100px;
+    }
+
+    .section-title h1 {
+        font-size: 36px;
+        line-height: normal;
+    }
+
+    .used-by-content {
+        display: block;
+        text-align: center;
+    }
+
+    .used-by-content img {
+        margin: 10px;
+    }
+
+    .calmer-content-left h1 {
+        font-size: 32px;
+    }
+
+    .social-profile li a {
+        margin-right: 10px;
+    }
+
+    .social-profile li a img {
+        height: 20px;
+    }
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .used-by-content {
+        display: block;
+        text-align: center;
+    }
+
+    .used-by-content img {
+        margin: 10px;
+    }
+
+    .hero-left-content {
+        width: 100%;
+        padding-top: 250px;
+        text-align: center;
+    }
+
+    img.hero-img {
+        height: 490px;
+    }
+
+    .mainmenu {
+        display: none;
+    }
+
+    .logo a img {
+        height: 48px;
+    }
+
+    .header-right a {
+        padding: 10px 25px;
+    }
+
+    .tnone {
+        display: none;
+    }
+
+    section.header-top-area {
+        background: rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(42px);
+        padding: 13px;
+        border-radius: 0px 0px 8px 8px;
+    }
+
+    section.header-top-area {
+        background: rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(42px);
+        padding: 13px;
+        border-radius: 0px 0px 8px 8px;
+    }
+
+    .row.blur-bg {
+        background: none;
+        padding: unset;
+        backdrop-filter: unset;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .hero-left-content h1 {
+        font-size: 48px;
+        line-height: normal;
+    }
+
+    .hero-left-content p {
+        font-size: 18px;
+    }
+
+    section.hero-area {
+        padding-bottom: 0;
+    }
+
+    .why-turboemdr .section-title h1 {
+        font-size: 36px;
+        line-height: normal;
+    }
+
+    .wht-single-img img {
+        height: 130px;
+    }
+
+    .wht-single-img-2 img {
+        height: 100px;
+        margin-left: -15px;
+    }
+
+    .wht-single-img-3 img {
+        height: 80px;
+        margin-right: 65px;
+    }
+
+    .wh-turbo-content-single h3 {
+        font-size: 22px;
+        line-height: normal;
+    }
+
+    .wh-turbo-content-single p {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .section-title h1 {
+        font-size: 36px;
+        line-height: normal;
+    }
+
+    .used-by-content img {
+        max-height: 39px;
+    }
+
+    section.why-turboemdr {
+        padding-bottom: 0;
+    }
+
+    .what-emdr-left-content p {
+        font-size: 16px;
+    }
+
+    .calmer-content-left h1 {
+        font-size: 36px;
+        line-height: normal;
+    }
+
+    .calmer-bg {
+        padding: 30px;
+        min-height: 300px;
+    }
+
+    .calmer-content-left {
+        width: 63%;
+    }
+
+    .calmer-content-left h1 {
+        font-size: 36px;
+        line-height: normal;
+    }
+
+    .calmer-bg {
+        padding: 30px;
+        min-height: 300px;
+    }
+
+    .calmer-content-left {
+        width: 63%;
+    }
+
+    .review-single-slide-text {
+        width: 100%;
+    }
+
+    .review-single-slide-text p {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .review-single-slide-video {
+        width: 100%;
+        min-height: auto;
+        margin-top: 30px;
+    }
+
+    section.faq-area {
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+
+    .footer-logo {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .social-contact h3 {
+        font-size: 22px;
+    }
+
+    .social-profile li a {
+        margin-right: 10px;
+    }
+
+    .social-profile li a img {
+        height: 20px;
+    }
+    .header-right {
+        text-align: left;
+        padding-left: 40px;
+    }
+    a.menu-trigger {
+        display: block;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .used-by-content {
+        display: block;
+    }
+
+    .mainmenu {
+        display: none;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .logo a img {
+        height: 40px;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .hero-left-content {
+        width: 100%;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .hero-left-content h1 {
+        font-size: 36px;
+        line-height: normal;
+    }
+
+    img.hero-img {
+        height: 325px;
+    }
+
+    .hero-left-content p {
+        font-size: 18px;
+        line-height: normal;
+    }
+
+    a.start-btn {
+        font-size: 18px;
+    }
+
+    a.start-btn:hover {
+        color: #fff !important;
+    }
+
+    section.hero-area {
+        padding-bottom: 0;
+    }
+
+    .why-turboemdr .section-title h1 {
+        font-size: 24px;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+
+    section.why-turboemdr {
+        padding: 50px 0;
+    }
+
+    .wh-turbo-content-single h3 {
+        font-size: 20px;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+
+    .wh-turbo-content-single p {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .wh-turbo-content-single {
+        margin-bottom: 15px;
+    }
+
+    .wh-turbo-content-right {
+        display: none;
+    }
+
+    .section-title h1 {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .used-by-content img {
+        height: 30px;
+        margin: 8px;
+    }
+
+    .used-by-content {
+        text-align: center;
+    }
+
+    .section-title h1 {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .used-by-content img {
+        height: 30px;
+        margin: 8px;
+    }
+
+    .used-by-content {
+        text-align: center;
+    }
+
+
+    section.used-by {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    .what-emdr-left-content p {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .what-emdr-right-content p {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .what-emdr-right-content a.start-btn {
+        margin-top: 10px;
+    }
+
+    .emdr-feature-img img {
+        height: 265px;
+        object-fit: cover;
+    }
+
+    section.turbo-help-area {
+        padding-top: 50px;
+    }
+
+    .turbo-help-content-left {
+        padding: 0 30px;
+    }
+
+    .turbo-help-content-right {
+        padding: 0 30px;
+    }
+
+    section.calmer-area {
+        margin: 50px 0;
+        text-align: center;
+    }
+
+    .calmer-content-left h1 {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .calmer-bg {
+        padding: 25px;
+        height: 520px;
+        background-image: url(/src/assets/img/calmer-m-bg.png);
+    }
+
+    .calmer-content-left p {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .review-slides .owl-nav button {
+        height: 36px;
+        width: 36px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .review-slides .owl-nav button span {
+        position: relative;
+        top: -7px;
+    }
+    section.review-area .section-title {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .review-slides .owl-nav button {
+        right: 50px;
+        top: -60px;
+    }
+    .review-single-slide-text {
+        width: 100%;
+        padding-right: 0;
+    }
+    
+    .review-single-slide-text p {
+        font-size: 14px;
+        line-height: normal;
+    }
+    
+    .review-slides {
+        padding: 20px;
+    }
+    
+    .review-single-slide-video {
+        width: 100%;
+        margin-top: 30px;
+        min-height: auto;
+    }
+    
+    section.faq-area {
+        margin: 50px 0;
+    }
+    
+    .accordion-button {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .accordian-color-disable {
+        background: none !important;
+    }
+    
+    .accordion-body {
+        font-size: 16px;
+        line-height: normal;
+    }
+    .footer-logo {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .footer-menu ul li a {
+        font-size: 16px;
+    }
+    
+    .footer-contact {
+        padding-top: 30px;
+    }
+    
+    .social-profile li a img {
+        height: 20px;
+    }
+    
+    .social-contact h3 {
+        font-size: 20px;
+    }
+    
+    .social-profile li a {
+        margin-right: 10px;
+    }
+    
+    .social-contact {
+        text-align: center;
+    }
+    a.menu-trigger {
+        display: block;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}

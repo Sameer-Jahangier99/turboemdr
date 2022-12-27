@@ -1,0 +1,105 @@
+.formGroup {
+    width: 100%;
+    position: relative;
+  
+    & .showHideIcon {
+      position: absolute;
+      right: 10px;
+      top: 0.55rem;
+      cursor: pointer;
+    }
+  
+    & .showHideText {
+      font-size: 14px;
+    }
+  
+    & .customTextField {
+      border: 1px solid;
+      border-radius: 10px;
+      padding: 8px 23px;
+      width: 100%;
+      background: none;
+  
+      &:focus {
+        border-color: #e3d6d1 !important;
+        outline: none;
+        box-shadow: 0px 0px 5px #cfcfcf;
+      }
+    }
+  
+    & .customPriceField {
+      border: 1px solid;
+      border-radius: 10px;
+      padding: 8px 23px;
+      width: 100%;
+      background: none;
+      text-align: right;
+  
+      &:focus {
+        border-color: #e3d6d1 !important;
+        outline: none;
+        box-shadow: 0px 0px 5px #cfcfcf;
+      }
+    }
+  
+    & .priceIcon {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  
+    & .customDaysField {
+      border: 1px solid;
+      border-radius: 10px;
+      padding: 13px 55px 13px 23px;
+      width: 100%;
+      background: none;
+      text-align: left;
+  
+      &::-webkit-outer-spin-button,
+      &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+  
+      &:focus {
+        border-color: #e3d6d1 !important;
+        outline: none;
+        box-shadow: 0px 0px 5px #cfcfcf;
+      }
+    }
+  
+    & .daysIcon {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #a23842;
+      background: #f6ebec;
+      font-size: 12px;
+      font-weight: 800;
+      padding: 5px;
+      border-radius: 5px;
+      font-family: 'Roboto Flex', sans-serif;
+    }
+  
+    & .customPasswordField {
+      border: 1px solid;
+      border-radius: 10px;
+      padding: 8px 23px;
+      width: 100%;
+      background: none;
+  
+      &:focus {
+        border-color: #e3d6d1 !important;
+        outline: none;
+        box-shadow: 0px 0px 5px #cfcfcf;
+      }
+    }
+  }
+  
+  .fieldError {
+    font-size: 13px;
+  }
+  
